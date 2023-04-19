@@ -11,6 +11,7 @@ import { EffectFlip, Pagination, Navigation } from "swiper";
 import { NavLink } from 'react-router-dom';
 import { getId } from '../../ReduxTK/AppRedux/Features/searchbarSlice';
 import { useDispatch } from 'react-redux';
+import { loading } from '../../ReduxTK/AppRedux/Features/searchbarSlice';
 
 
 
@@ -27,6 +28,7 @@ if(isLoading) return null
  
 
   return (
+  
     <div className='flex justify-center items-center sm:h-[40vh] md:h-[50vh] lg:h-[50vh] bg-[#5353538c] mt-[10%] mb-[10px] lg:mt-[5%] '>
         
     <div className='mb-[50px] mt-[50px]  w-[100%]  sm:w-[90vw] lg:w-[80vw]'>

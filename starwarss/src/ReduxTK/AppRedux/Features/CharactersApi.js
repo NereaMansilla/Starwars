@@ -1,8 +1,8 @@
 import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react'
 
 
-const API = "http://localhost:3001/"
-//"https://starwars-production-f55d.up.railway.app/"
+const API = "https://starwars-production-f55d.up.railway.app/"
+
 
 
 

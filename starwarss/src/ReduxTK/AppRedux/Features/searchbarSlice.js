@@ -10,12 +10,16 @@ const searchBar= createSlice({
  name: 'searchBar',
  initialState:{
     id: null,
+    loading: ''
  },
  reducers:{
 
     getId: (state, {payload})=>{
       state.id = payload
     },
+    loading: (state, {payload})=>{
+      state.loading = payload
+    }
     
  },
 
@@ -23,5 +27,5 @@ const searchBar= createSlice({
 
 
 export default searchBar.reducer
-export const {fullState, modal, getId} = searchBar.actions
+export const {fullState, modal, getId, loading} = searchBar.actions
 

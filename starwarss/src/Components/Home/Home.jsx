@@ -4,13 +4,14 @@ import { Navbar } from '../Navbar/Navbar'
 import { Searchbar } from '../Searchbar/Searchbar'
 import { Carrusel } from '../Carrusel/Carrusel'
 import { Cards } from '../Cards/Cards'
-
-
+import { useSelector } from 'react-redux'
 
 
 
 export const Home = () => {
-
+  
+  const loading = useSelector(state=> state.search.loading)
+  console.log('l', loading)
 
 
   return (

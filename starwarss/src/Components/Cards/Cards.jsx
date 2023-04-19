@@ -5,6 +5,7 @@ import './Cards.css'
 import { Card } from '../Card/Card'
 import { useState} from 'react'
 import { Paginacion } from '../Paginacion/Paginacion'
+import { Loading } from '../Loading/Loading'
 
 
 export const Cards = () => {
@@ -13,7 +14,7 @@ export const Cards = () => {
     const [perPage, setPerPage] = useState(12)
 
 
-    if(isLoading) return null
+    if(isLoading) return <div className='h-[100vh] w-[100%]'></div>
     const max = data.length / perPage
 
    

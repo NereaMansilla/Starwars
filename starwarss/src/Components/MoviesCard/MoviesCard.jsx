@@ -15,7 +15,7 @@ if(isLoading) return <Loading2/>
        <div className='flex justify-start items-center  w-[100vw] '>
         <img className='w-[40px] h-[40px]' src="https://media.giphy.com/media/OuXrUX7dfIlUnhzay3/giphy.gif" alt='git'/>
         <NavLink to='/home'>
-        <h1 className='text-white text-[15px] text-center font-[700]'>Volver</h1>
+        <h1 className='text-white text-[15px] text-center font-[700]'>Back</h1>
         </NavLink>
         </div>
       {

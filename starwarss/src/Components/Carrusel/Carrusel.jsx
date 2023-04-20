@@ -50,7 +50,7 @@ if(isLoading) return null
         {
             data?.map((c)=>(
                 <SwiperSlide key={c.id}>
-                    <div onClick={()=> sendId(c.id)} className=' w-[90vw]  flex justify-center items-center lg:w-auto sm:w-auto'>
+                    <div onClick={()=> sendId(c.id)} className=' w-[100%]  flex justify-center items-center lg:w-auto sm:w-auto'>
                       <NavLink to='/movies'>
                     <img className='w-[200px] h-[300px] rounded-md object-contain hover:cursor-pointer  hover:w-[205px] hover:h-[305px]  sm:w-[250px] sm:h-[250px] sm:hover:w-[255px] sm:hover:h-[255px]  lg:object-contain lg:w-[200px] lg:h-[300px]  lg:hover:w-[202px] lg:hover:h-[302px]  ' src={c.image} alt='aa'/>
                       </NavLink>

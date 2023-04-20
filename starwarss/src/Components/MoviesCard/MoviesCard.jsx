@@ -29,7 +29,7 @@ if(isLoading) return <Loading2/>
           <div className=' h-[30vh] overflow-y-auto' id='scrollbar'>
 
             <h3 className='text-white text-[14px] font-[600] sm:text-[15px]'>{movie.description}</h3>
-            <h3 className='text-white text-[12px]  sm:text-[13px]'>Reparto:</h3>
+            <h3 className='text-white text-[12px] text-center sm:text-[13px]'>Cast:</h3>
             <h3 className='text-white text-[12px] sm:text-[13px]'>{movie.actors}</h3>
           </div>
           </div>
@@ -42,7 +42,7 @@ if(isLoading) return <Loading2/>
           <br/>
           <h3 className='text-white text-[15px] text-center lg:text-[20px]'>{movie.description}</h3>
           <br/>
-          <h3 className='text-white text-[13px] text-center lg:text-[15px]'>Reparto:</h3>
+          <h3 className='text-white text-[13px] text-center lg:text-[15px]'>Cast:</h3>
           <h3 className='text-white text-[13px] text-center lg:text-[15px]'>{movie.actors}</h3>
         </div>
 

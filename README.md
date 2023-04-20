@@ -1,8 +1,11 @@
 # Starwars
 
  Hola! Esta es una pagina web de star wars creada con react, redux y tailwind css para el frontend, y node js con express para un pequeño backend. Si clonas el repositorio, podes utilizar *npm star* en la carpeta de *starwarss* para correr el frontend, y *npm run dev* para correr el backend de manera local 
+ <br/>
  *Deploy frontend* https://starwars-5y16.vercel.app/
+ <br/>
  *Deploy de la api* https://starwars-production-f55d.up.railway.app
+ <br/>
  *Diseño en figma* https://www.figma.com/file/aCOsyd29pqTBoINUsQllXF/Untitled?node-id=38-13&t=wz2m3l9omAGoW4NM-0
  <br/>
  <br/>

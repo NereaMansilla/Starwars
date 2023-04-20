@@ -8,6 +8,8 @@
  <br/>
  *Diseño en figma* https://www.figma.com/file/aCOsyd29pqTBoINUsQllXF/Untitled?node-id=38-13&t=wz2m3l9omAGoW4NM-0
  <br/>
+ 
+ 
  Hello! This is a Star Wars website created with React, Redux, and Tailwind CSS for the frontend, and Node.js with Express for a small backend. If you clone the repository, you can use *npm start* in the starwarss folder to run the frontend, and *npm run dev* in the Server folder to run the backend on your local machine.
  <br/>
  *Deploy frontend* https://starwars-5y16.vercel.app/

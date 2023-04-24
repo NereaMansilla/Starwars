@@ -4,7 +4,7 @@
  <br/>
  *Deploy frontend* https://starwars-5y16.vercel.app/
  <br/>
- *Deploy de la api* https://starwars-production-f55d.up.railway.app
+ *Deploy de la api* https://starwars-1jci.vercel.app/
  <br/>
  *Diseño en figma* https://www.figma.com/file/aCOsyd29pqTBoINUsQllXF/Untitled?node-id=38-13&t=wz2m3l9omAGoW4NM-0
  <br/>
@@ -14,7 +14,7 @@
  <br/>
  *Deploy frontend* https://starwars-5y16.vercel.app/
  <br/>
- *Deploy api* https://starwars-production-f55d.up.railway.app
+ *Deploy api* https://starwars-1jci.vercel.app/
  <br/>
  *Design in Figma* https://www.figma.com/file/aCOsyd29pqTBoINUsQllXF/Untitled?node-id=38-13&t=wz2m3l9omAGoW4NM-0
  <br/>
